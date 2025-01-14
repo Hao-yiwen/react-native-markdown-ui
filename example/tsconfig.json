@@ -3,8 +3,8 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "expo-settings": ["../src/index"],
-      "expo-settings/*": ["../src/*"]
+      "react-native-markdownUI": ["../src/index"],
+      "react-native-markdownUI/*": ["../src/*"]
     }
   }
 }

@@ -20,13 +20,13 @@
     "expo",
     "MarkdownUI"
   ],
-  "repository": "https://github.com/binaryminds/react-native-sse",
+  "repository": "https://github.com/Hao-yiwen/react-native-markdown-ui",
   "bugs": {
-    "url": "https://github.com/binaryminds/react-native-sse/issues"
+    "url": "https://github.com/Hao-yiwen/react-native-markdown-ui/issues"
   },
   "author": "yw.hao <yw.hao@trip.com> ()",
   "license": "MIT",
-  "homepage": "https://github.com/binaryminds/react-native-sse#readme",
+  "homepage": "https://github.com/Hao-yiwen/react-native-markdown-ui#readme",
   "dependencies": {},
   "devDependencies": {
     "@types/react": "~18.3.12",

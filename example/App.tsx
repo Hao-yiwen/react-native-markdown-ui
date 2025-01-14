@@ -1,6 +1,6 @@
 // React Native 代码部分
 import { useEffect, useState } from "react";
-import { ExpoSettingsView } from "expo-settings";
+import { ReactNativeMarkDownUI } from "react-native-markdownUI";
 import { SafeAreaView, View } from "react-native";
 
 const fullMarkdownContent = `
@@ -40,7 +40,7 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.contentContainer}>
-        <ExpoSettingsView
+        <ReactNativeMarkDownUI
           content={markdownContent}
           onLoad={({ nativeEvent: { status } }) =>
             console.log(`加载状态: ${status}`)
@@ -58,7 +58,7 @@ const styles = {
     backgroundColor: "#eee",
   },
   contentContainer: {
-    width: "100%", 
+    width: "100%",
     backgroundColor: "red",
     alignItems: 'flex-start',  // 确保内容从顶部开始
   },

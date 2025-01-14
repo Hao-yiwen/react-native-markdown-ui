@@ -6,7 +6,7 @@ module.exports = async (env, argv) => {
     {
       ...env,
       babel: {
-        dangerouslyAddModulePathsToTranspile: ['expo-settings'],
+        dangerouslyAddModulePathsToTranspile: ['react-native-markdownUI'],
       },
     },
     argv

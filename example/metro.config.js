@@ -19,7 +19,7 @@ config.resolver.nodeModulesPaths = [
 ];
 
 config.resolver.extraNodeModules = {
-  'expo-settings': '..',
+  'react-native-markdownUI': '..',
 };
 
 config.watchFolders = [path.resolve(__dirname, '..')];

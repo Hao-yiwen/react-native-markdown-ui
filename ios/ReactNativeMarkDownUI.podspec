@@ -15,13 +15,12 @@ Pod::Spec.new do |s|
     :tvos => '15.1'
   }
   s.swift_version  = '5.4'
-  s.source         = { git: 'https://github.com/binaryminds/react-native-sse' }
+  s.source         = { git: 'https://github.com/Hao-yiwen/react-native-markdown-ui' }
 
   s.dependency 'ExpoModulesCore'
 
   # 添加所有依赖的框架
   s.vendored_frameworks = [
-    'NetworkImage.xcframework',      # 放在最前面因为其他框架依赖它
     'cmark_gfm.xcframework',
     'cmark_gfm_extensions.xcframework',
     'MarkdownUI.xcframework'         # 放在最后因为它依赖其他框架

@@ -305,9 +305,9 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-exposettingsexample/Pods-exposettingsexample-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoSettings/cmark_gfm.framework/cmark_gfm",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoSettings/cmark_gfm_extensions.framework/cmark_gfm_extensions",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ExpoSettings/MarkdownUI.framework/MarkdownUI",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ReactNativeMarkDownUI/cmark_gfm.framework/cmark_gfm",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ReactNativeMarkDownUI/cmark_gfm_extensions.framework/cmark_gfm_extensions",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ReactNativeMarkDownUI/MarkdownUI.framework/MarkdownUI",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
 			);
 			name = "[CP] Embed Pods Frameworks";
